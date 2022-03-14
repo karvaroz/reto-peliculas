@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap");
+
+body {
+  background-image: url("https://images4.alphacoders.com/843/thumb-1920-84314.jpg");
+  background-repeat: repeat-y;
+  text-align: center;
+  font-family: "Henny Penny", cursive;
+  animation: bgfade 7s;
+  -webkit-animation: bgfade 7s;
+}
+
+.container {
+  background-color: white;
+  width: 45%;
+  padding: 5px;
+  margin: auto;
+  border-radius: 30px;
+  opacity: 0.8;
+  margin-bottom: 30px;
+}
+
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 30px 40px;
+}
+
+img {
+  border-radius: 30px;
+}
+#personCard {
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 30px;
+}
